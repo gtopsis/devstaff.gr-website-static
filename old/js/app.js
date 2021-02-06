@@ -9,6 +9,13 @@ controller('SponsorsController', function($scope) {
 
   $scope.SponsorsList = [
     {
+      Name: 'Fairlo',
+      Image: 'fairlo.png',
+      HomeLink: 'https://fairlo.se/',
+      FacebookLink: 'https://el-gr.facebook.com/fairlo.se/',
+      LinkedInLink: 'https://www.linkedin.com/company/fairlo/'
+    },
+    {
       Name: 'BestPrice',
       Image: 'bestprice.png',
       HomeLink: 'https://www.bestprice.gr/',
@@ -63,6 +70,34 @@ controller('SponsorsController', function($scope) {
       HomeLink: 'http://www.cyberlogic.gr/en/home/',
       FacebookLink: 'https://www.facebook.com/Cyberlogic.gr/',
       LinkedInLink: 'https://www.linkedin.com/company/cyberlogic-oe/'
+    },
+    {
+      Name: 'Phatweb',
+      Image: 'phatweb-logo.png',
+      HomeLink: 'https://phatweb.gr/',
+      FacebookLink: 'https://www.facebook.com/phatweb.gr/',
+      LinkedInLink: ''
+    },
+    {
+      Name: 'Sunlight',
+      Image: 'logo-sunlight-white.png',
+      HomeLink: 'https://www.sunlight.io/',
+      FacebookLink: 'https://www.facebook.com/Sunlightio-236110340385376/',
+      LinkedInLink: 'https://www.linkedin.com/company/sunlight-io'
+    },
+    {
+      Name: 'FORTH',
+      Image: 'forth_logo.png',
+      HomeLink: 'https://www.forth.gr/',
+      FacebookLink: 'https://www.facebook.com/FORTH.ITE/',
+      LinkedInLink: 'https://gr.linkedin.com/company/foundation-for-research-&-technology-hellas-forth-'
+    },
+    {
+      Name: 'CSD-UOC',
+      Image: 'uoc_logo.png',
+      HomeLink: 'https://www.csd.uoc.gr/CSD/index.jsp',
+      FacebookLink: 'https://el-gr.facebook.com/csd.uoc.gr/',
+      LinkedInLink: 'https://gr.linkedin.com/school/uoc-csd/'
     }
   ];
 });
